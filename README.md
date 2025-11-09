@@ -1,15 +1,33 @@
+# Este es el comando para ejecutar un proyecto
+```bash
+python -m {field.proyect}
+```
 
----
+# Contenido
 
-### Cambios y correcciones:
-1. **Espacios en los enlaces internos**: En Markdown, los enlaces a secciones usan minúsculas y guiones en lugar de espacios ni mayúsculas. Por ejemplo, `[Condición if](#condición-if)` en lugar de `[Condición if](#Condición if)`.
-2. **Corrección de errores ortográficos**:  
-   - “caotura” → “captura”  
-   - “se valúa” → “se evalúa”
-3. **Formato consistente**: Se añadieron espacios después de los `:` y se usaron backticks (\`) para resaltar código como `if`, `True`, `False`.
-4. **Markdown más limpio**: Se separaron los títulos de las listas y se aseguró que los enlaces funcionen.
+- [Condición if](#condición-if)
+- [Condición else](#condición-else)
+- [Condición elif](#condición-elif)
+- [Operadores comunes en condiciones](#operadores-comunes-en-condiciones)
 
----
+## Condición if
+- **if**: La condición va después de `if` y termina con `:`  
+- **El bloque**: El bloque de código dentro del `if` debe estar indentado (normalmente 4 espacios)  
+- **True o False**: La condición se evalúa como `True` o `False`  
 
-Si quieres, puedo hacer una **versión lista para copiar** que ya tenga un índice automático en la parte superior, para que no tengas que escribir los enlaces manualmente.  
-¿Quieres que haga eso?
+## Condición else
+- **else**: Captura todo lo que no cumple la condición `if`  
+- **No lleva la condición**  
+
+## Condición elif
+- **Python evalúa las condiciones de arriba hacia abajo**  
+- **La primera que sea `True` se ejecuta** y el resto se ignora  
+
+## Operadores comunes en condiciones
+- **==** : Igual a  
+- **!=** : Diferente de  
+- **>**  : Mayor que  
+- **<**  : Menor que  
+- **>=** : Mayor o igual que  
+- **<=** : Menor o igual que  
+- **and / or / not** : Operadores lógicos
