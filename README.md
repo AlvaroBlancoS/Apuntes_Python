@@ -32,4 +32,4 @@ python -m {field.proyect}
 - **<=** : Menor o igual que  
 - **and / or / not** : Operadores lógicos
 - [Primer lógico](https://github.com/AlvaroBlancoS/Apuntes_Python/blob/learning/control_structures/Conditions/LogicV1.py)
-- [Segundo lógico]()
+- [Segundo lógico](https://github.com/AlvaroBlancoS/Apuntes_Python/blob/learning/control_structures/Conditions/LogicV2.py)
